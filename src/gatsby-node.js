@@ -203,7 +203,7 @@ See docs here - https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
 
   const GATSBY_CONCURRENT_FILES = process.env.GATSBY_CONCURRENT_FILES
   ? parseInt(process.env.GATSBY_CONCURRENT_FILES, 10) || 0
-  : 800
+  : 8000
 
   const fileProcessingQueue = async.queue(createAndProcessNode, GATSBY_CONCURRENT_FILES);
 

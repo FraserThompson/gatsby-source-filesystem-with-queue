@@ -74,7 +74,7 @@ They will be added to the following default list:
 
 To prevent concurrent requests overload of `processRemoteNode`, you can adjust the `200` default concurrent downloads, with `GATSBY_CONCURRENT_DOWNLOAD` environment variable.
 
-To prevent opening too many files, you can adjust the `800` default concurrent files open, with `GATSBY_CONCURRENT_FILES` environment variable.
+To prevent opening too many files, you can adjust the `8000` default concurrent files open, with `GATSBY_CONCURRENT_FILES` environment variable.
 
 ## How to query
 

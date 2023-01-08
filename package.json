@@ -1,7 +1,7 @@
 {
   "name": "gatsby-source-filesystem-with-queue",
   "description": "Gatsby source plugin for building websites from local data. Markdown, JSON, images, YAML, CSV, and dozens of other data types supported. Implements a queue to limit concurrent file reads to avoid errors on large sites.",
-  "version": "5.2.0",
+  "version": "5.3.1",
   "author": "Fraser Thompson",
   "bugs": {
     "url": "https://github.com/FraserThompson/gatsby-source-filesystem-with-queue/issues"
@@ -12,17 +12,17 @@
     "chokidar": "^3.5.3",
     "file-type": "^16.5.4",
     "fs-extra": "^10.1.0",
-    "gatsby-core-utils": "^4.2.0",
+    "gatsby-core-utils": "^4.3.1",
     "md5-file": "^5.0.0",
-    "mime": "^2.5.2",
-    "pretty-bytes": "^5.4.1",
+    "mime": "^2.6.0",
+    "pretty-bytes": "^5.6.0",
     "valid-url": "^1.0.9",
     "xstate": "^4.34.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",
-    "babel-preset-gatsby-package": "^3.2.0",
+    "babel-preset-gatsby-package": "^3.3.0",
     "cross-env": "^7.0.3"
   },
   "homepage": "https://github.com/FraserThompson/gatsby-source-filesystem-with-queue",
