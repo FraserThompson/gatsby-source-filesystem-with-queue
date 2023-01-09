@@ -12,7 +12,7 @@ nodes from which you can query an HTML representation of the markdown.
 The only difference between this and [`gatsby-source-filesystem`](https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/) is that
 this plugin processes files in an asynchronous queue, with a configurable 
 limit on how many files can be processed simultaneously. This limit is 
-800 by default, which should be fine on most systems, but you can lower 
+8000 by default, which should be fine on most systems, but you can lower 
 it with the `GATSBY_CONCURRENT_FILES` environment variable if you still
 encounter errors (or raise it to speed things up).
 
